@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Montserrat+Alternates&display=swap');
+
+body{
+    
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 18px;
+    
+}
+.navbar {
+    background-color: transparent; /* Set to your initial color or 'transparent' */
+    transition: background-color 1.0s ease; /* Add a smooth transition effect */
+}
+.navbar-scrolled {
+    background-color: #1a150e; /* Set to your desired color when scrolled */
+}
+
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: #8e7754;
+}
+
+header{
+    background-image: url(../imgs/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.fontt{
+    font-size: 76px;
+}
+.btn{
+    color: white;
+    padding: 15px;
+    margin: 5px;
+    font-size: 22px;
+}
+.button:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+.btn1{
+    background-color: #8e7754;
+}
+.btn2{
+    border: 1px solid;
+}
+.icon
+{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    color: #8e7754;
+    border: 1px solid rgba(0,0,0,.15);
+}
+.bg-color{
+    background-color: #f8f8f8;
+}
+.p1{
+    color: #686868;
+}
+.icon2{
+    background-color: #8e7754;
+    width: 40px;
+    height: 40px;
+    color: white;
+}
+li{
+    list-style: none;
+}
+.footer ul li{
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    margin-bottom: 6px;
+    padding-bottom: 7px; 
+}
+#footer{
+    background-color: #403d38;
+    color: rgb(150, 150, 150);
+    height: auto;
+    line-height: 1.86rem;
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 15px;
+}
+.footer .header{
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.footer ul li::before{ /* Search on it */
+    content: "\f105";
+    font-family: FontAwesome;
+    padding-right: 8px;
+
+}
+.footer ul{
+    padding-left: 0;
+}
+
+.footer-bottom{
+    background-color: #353330;
+    color: #fff;
+    height: 50vh;
+}
+.icon3{
+    background-color: rgb(73, 70, 67);
+    width: 40px;
+    height: 40px;
+    color: rgb(150, 150, 150);
+}
+
+
+@media (max-width:1290px) {
+    .contact iframe{
+        width: 380px !important;
+    
+    }
+
+    
+}
